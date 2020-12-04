@@ -1,0 +1,14 @@
+.area-container {
+  position: relative;
+  height: 150px;
+  width: 400px;
+}
+
+textarea {
+  resize: none;
+}
+.icon-user {
+  position: fixed;
+  width: 16px;
+  height: 16px;
+}

@@ -1,0 +1,80 @@
+{
+  "containers": {
+    "home": {
+      "addNewMachine": "Agregar nueva máquina",
+      "listAllMachines": "Listar todas las máquinas",
+      "reportFault": "Reportar falla",
+      "addEvent": "Agregra Evento"
+    },
+    "machines": {
+      "list": {
+        "noDataReturned": "No existen máquinas ingresadas"
+      },
+      "newMachine": {
+        "createdSuccessfully": "Máquina creada correctamente",
+        "purchaseNumber": "Número de Compra",
+        "deleteVoiceRecord": "¿Seguro desea eliminar el audio?",
+        "deleteComponentConfirmation": "¿Seguro desea eliminar el componente?",
+        "errorOnCreation": "No se ha podido crear correctamente",
+        "floor": "Planta",
+        "name": "Nombre Interno",
+        "title": "Máquina",
+        "serieNumber": "Número de Serie",
+        "make": "Marca",
+        "model": "Modelo",
+        "maintenanceResponsible": "Responsable de Mantenimiento",
+        "manufacturer": "Fabricante",
+        "FileList": "Archivos Adjuntos",
+        "state": "Estado",
+        "manufacturerType": "Tipo de Fabricación",
+        "planId": "Número de Plano",
+        "type": "Tipo de Máquina",
+        "description": "Descripción",
+        "moreInfo": "Otros datos relevantes",
+        "workingFromDate": "Fecha Puesta en Marcha",
+        "lastMaintenanceDate": "Fecha del último mantenimiento",
+        "nextMaintenanceDate": "Fecha del próximo mantenimiento",
+        "plant": "Planta",
+        "area": "Área",
+        "sublevel": "Subnivel",
+        "provider": "Proveedor"
+      }
+    },
+    "faults": {
+      "list": {
+        "noDataReturned": "No existen fallas"
+      },
+      "newFault": {
+        "createdSuccessfully": "Se guardó la falla correctamente",
+        "deleteVoiceRecord": "¿Seguro deseas eliminar este audio?",
+        "errorOnCreation": "No se ha podido crear la falla correctamente",
+        "name": "Título de la falla",
+        "title": "Reportar Falla",
+        "date": "Fecha de la falla",
+        "machine": "Máquina",
+        "component": "Componente",
+        "piece": "Pieza",
+        "analyzed_measures": "Mediciones Analizadas",
+        "priority": "Prioridad",
+        "state": "Estado",
+        "type": "Clasificación",
+        "description": "Descripción",
+        "fault_number": "Número de Falla",
+        "stage": "Etapa del proceso",
+        "resolutionDate": "Fecha de Resolución",
+        "moreInfo": "Otros datos relevantes",
+        "responsibleUser": "Usuario Responsable",
+        "users": "Usuarios relatores"
+      }
+    }
+  },
+  "components": {
+    "voiceModal": {
+      "cancel": "Cancelar",
+      "confirm": "Confirmar",
+      "finishRecord": "Finalizar",
+      "startRecord": "Grabar",
+      "title": "Grabar Audio"
+    }
+  }
+}
